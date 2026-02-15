@@ -1,0 +1,1 @@
+while true; do echo 255 | sudo tee /sys/class/leds/tpacpi::lid_logo_dot/brightness > /dev/null; sleep 0.02; echo 0 | sudo tee /sys/class/leds/tpacpi::lid_logo_dot/brightness > /dev/null; sleep 0.02; done
