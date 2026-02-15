@@ -1,0 +1,1 @@
+echo 0 | sudo tee /sys/class/leds/tpacpi::lid_logo_dot/brightness
